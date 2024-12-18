@@ -1,3 +1,11 @@
+# variable "instance_type" {
+#   default = "t2.micro"
+# }
+
+# variable "ami" {
+#   default = "ami-012967cc5a8c9f891"
+# }
+
 # Create a EC2 Machine
 resource "aws_instance" "tf-ec2" {
   ami = "ami-012967cc5a8c9f891"
